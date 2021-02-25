@@ -37,7 +37,7 @@
                             <td><?= $sm['title']; ?></td>
                             <td><?= $sm['menu']; ?></td>
                             <td><?= $sm['url']; ?></td>
-                            <td><?= $sm['icon']; ?></td>
+                            <td> <i class="<?= $sm['icon']; ?>"></i></td>
                             <td><?= $sm['is_active']; ?></td>
                             <td>
                                 <a href="" class="badge badge-success">edit</a>
@@ -100,7 +100,7 @@
                     <!-- Active -->
                     <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="1" name="is_acctive" id="is_active" checked>
+                            <input class="form-check-input" type="checkbox" value="1" name="is_active" id="is_active" checked>
                             <label class="form-check-label" for="is_active">
                                 Active?
                             </label>
